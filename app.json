@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "webViewProj",
-    "slug": "webViewProj",
+    "name": "TechHack",
+    "slug": "techhack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,6 +16,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.techhack.techhack"
+    },
     "ios": {
       "supportsTablet": true
     },
